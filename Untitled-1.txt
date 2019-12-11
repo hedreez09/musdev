@@ -1,0 +1,12 @@
+ <div class=" float-md-left">
+            <img src="images/bg.png" alt="images" class="imgban img-responsive">
+            <img src="images/Musdev Illustration.png" alt="images" class="imglog img-responsive">
+            <div class="row" id="tes">
+            <div class="col-md-6">
+                <div class="tex">
+                    <h1><strong>Coding for the deen</strong></h1>
+                    <p class="grow"> Growing multinational community of muslim developer and tech enthusiast all overthe world.</p>
+                    <p class="join">Join us</p>
+                </div>
+            </div>
+        </div>
