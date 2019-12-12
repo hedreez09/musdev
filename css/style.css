@@ -1,13 +1,15 @@
 .navbar-brand {
     margin-left: 50px;
 }
-li{
+li:hover{
     display: block; 
+    background-color:rgb(85, 13, 28);
+    border-radius: 30%;
     
 }
 
 #imgban{
-    width: 1500px;
+    width: 1300px;
     height: 600px;
     position: relative;
 
@@ -70,9 +72,3 @@ li{
     left: 200px;
     
 }
-
-@media only screen and (max-width: 700px) {
-    .width_reduce {
-      width: 50%;
-    }
-  }
