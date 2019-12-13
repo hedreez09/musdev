@@ -1,169 +1,149 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" ></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" ></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" ></script>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Home</title>
+        <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"> -->
+        <link rel="stylesheet" href="css/bootstrapcss/bootstrap.min.css">
+        <link rel="stylesheet" href="css/custom.css">
+        <link rel="stylesheet" href="css/fontawesome5/css/all.min.css">
+    </head>
+    <body>
+        <div class="container-fluid">
+            <!-- header section starts here -->
+            <nav class="row navbar navbar-expand-md navbar-light bg-light">
+                <a class="col-3  col-lg-4 navbar-brand pl-5" href="index.html">
+                    <img src="images/header_logo.png" alt="">
+                </a>
+                <button class="navbar-toggler nav-btn" type="button" data-toggle="collapse" data-target="#menu-items">
+                    <span class="navbar-toggler-icon"></span>
+                </button>  
+    
+                <div class="col-9 col-lg-8 collapse navbar-collapse" id="menu-items">
+                    <ul class="navbar-nav" >
+                        <li class="nav-item">
+                            <a class="nav-link list-item" href="#"> Meetups </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link list-item" href="#"> Community </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link list-item" href="#"> Leaders </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link list-item" href="#"> Join Us </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link list-item" href="#"> Login </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn btn-danger" href="#" role="button" id="support-btn"> Support us </a>
+                        </li>
+                    </ul> 
+                </div> 
+            </nav> 
+        </div>   
+        <!-- header section ends here -->
 
-    <title>Muslim Developer</title>
-</head>
-<body >
-    <div class="container-fluid" >
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#"><img src="images/logo.png" alt="images" class="logo img-fluid" width="100px" height="60px"></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarText">
-                <ul class="navbar-nav mr-auto" >
-                    <li class="nav-item active">
-                      <a class="nav-link" href="#"><srong>meetups </srong><span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Community</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">leader</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Join us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Log in</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Support us</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-        <div class="head">
-            <img src="images/bg.png" class="img-responsive" alt="images" id="imgban">
-            <img src="images/Musdev Illustration.png"  class="img-responsive width_reduce" alt="images"  id="imglog"> 
-            <div class="tes">
-                <h1><strong>Coding for the deen</strong></h1>
-                <p> Growing multinational community of muslim<br> developer and tech enthusiast all overthe world.</p>
-                <button type="button" class="btn btn-light" id="butn">Join us</button> 
-        </div> 
-         <div class="row">
-            <div class="col-md-4">
-                <img src="images/mentorship.png" alt="images" class="group" width="60px" height="60px">
-                <p class="ment">The community connects members with professional and industry leaders who can provide career guidance.</p>
-            </div>
-            <div class="col-md-4">   
-            <img src="images/meetups.png" alt="images" class="group" width="60px" height="60px">
-            <p class="grp">Connect with fellow muslim developers, professionals and industry leaders at the annual meetup.</p>
-            </div>
-            <div class="col-md-4">
-                <img src="images/opportunities.png" alt="images" class="group" width="60px" height="60px">
-                <p class="opp">Get connected with gigs and jobs opportunities help from the community.</p>
-            </div>
-        </div>
-        <div>
-            <br><br>
-            <img src="images/line.png" alt="images" class="group" >
-            <br><br>
-        </div>
-        <div class="sp">
-            <h3><strong>Sponsors</strong></h3>
-        </div> 
-         <div class="container">
-            <div class="row">
-                    <div class="col-md-2">
-                        <div>
-                            <img src="images/andela.png" alt="image" class="img-fluid" width="90px" height="40px">
-                        </div>
+      <!-- main body section here -->
+        <main class="bgImage">
+            <img src="images/bg2.png" class="" alt="images" id="bgImgPlain">
+            <div class="container-fluid">
+                <div class="row landing-section">
+                    <div class="col-lg-7 bg-text">
+                        <p id="codingText"> Coding for the deen </p>
+                        <p> A growing multinational community of muslim developer and tech enthusiast all overthe world.</p>
+                        <button type="button" class="btn btn-light" id="butn">Join us</button> 
                     </div>
-                    <div class="col-md-2">
-                        <div>
-                            <img src="images/buzlo.png" alt="image" class="img-fluid" width="90px" height="40px">
-                        </div>
-                    </div>
-                    <div class="col-md-2">
-                        <div>
-                            <img src="images/andela.png" alt="image" class="img-fluid" width="90px" height="40px">
-                        </div>
-                    </div>
-                    <div class="col-md-2">
-                        <div>
-                            <img src="images/buzlo.png" alt="image" class="img-fluid" width="90px" height="40px">
-                        </div>
-                    </div>
-                    <div class="col-md-2">
-                        <div>
-                            <img src="images/andela.png" alt="image" class="img-fluid" width="90px" height="40px">
-                        </div>
-                    </div>
-                    <div class="col-md-2">
-                        <div>
-                            <img src="images/buzlo.png" alt="image" class="img-fluid" width="90px" height="40px">
-                        </div>
-                    </div>
-                </div> -->
-                 <div class="row">
-                        <div class="col-md-2">
-                            <div>
-                                <img src="images/bolt.png" alt="image" class="img-fluid" width="90px" height="40px">
-                            </div>
-                        </div>
-                        <div class="col-md-2">
-                            <div>
-                                <img src="images/bolt.png" alt="image" class="img-fluid" width="90px" height="40px">  
-                            </div>
-                        </div>
-                        <div class="col-md-2">
-                            <div>
-                                <img src="images/bolt.png" alt="image" class="img-fluid" width="90px" height="40px">
-                            </div>
-                        </div> 
-                        <div class="col-md-2">
-                            <div>
-                                <img src="images/bolt.png" alt="image" class="img-fluid" width="90px" height="40px">
-                            </div>
-                        </div>
-                        <div class="col-md-2">
-                                <div>
-                                    <img src="images/bolt.png" alt="image" class="img-fluid" width="90px" height="40px">
-                                </div>
-                        </div>
-                        <div class="col-md-2">
-                            <div>
-                                <img src="images/bolt.png" alt="image" class="img-fluid" width="90px" height="40px">
-                            </div>
-                        </div>
-            </div> 
-            <footer class="foot">
-                <div class="row">
-                    <div class="col-sm-4">
-                        <img src="images/musdev white-1.png" alt="images" class="img-fluid" width="100px" height="60px">
-                     </div> 
-                    <div class="col-sm-4" id="fut">
-                        <h3>Stay in touch</h3>
-                        <div class="ficon">
-                            <a href="#"><img src="images/mail.png" alt="images" class="img-fluid" width="40px" height="40px"></a>
-                            <a href="#"><img src="images/slack .png" alt="images" class="img-fluid" width="40px" height="40px" ></a>
-                            <a href="#"><img src="images/fb.png" alt="images" class="img-fluid" width="40px" height="40px"></a>
-                            <a href="#"><img src="images/whatsapp.png" alt="images" class="img-fluid" width="40px" height="40px"></a>
-                        </div>
-                        <p>2019 Muslim Developers Community, Africa</p>
-                    </div>
-
-                    <div class="col-sm-4" id="links" style="color: #ffff;">
-                        <a href="#"><p>Join us</p></a>
-                        <a href="#"><p>Log in</p></a>
-                        <a href="#"><p>meetups</p></a>
-                        <a href="#"><p>Community</p></a>
-                        <a href="#"><p>Leaders</p></a>
-                        
+                    <div class="col-lg-5" id="imgIllustration-div">
+                        <img src="images/Musdev_Illustration1.png"  id="imgCode" alt="images" >
                     </div>
                 </div>
-            </footer>      
-    </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-</body>
+                
+                <div class="row indexpage-content">
+                    <div class="col-lg-4 indexpage-icons">
+                        <img src="images/mentorship1.png" alt="images">
+                        <p class="three-icons">Mentorship</p>
+                        <p class="mentor">The community connects members with professional and industry leaders who can provide career guidance.</p>
+                    </div>
+                    <div class="col-lg-4 indexpage-icons otherImg">   
+                        <img src="images/meetups1.png" alt="images">
+                        <p class="three-icons">Meetups</p>
+                        <p class="meetup">Connect with fellow muslim developers, professionals and industry leaders at the annual meetup.</p>
+                    </div>
+                    <div class="col-lg-4 indexpage-icons otherImg">
+                        <img src="images/opportunities1.png" alt="images">
+                        <p class="three-icons">Opportunities</p>
+                        <p class="opp">Get connected with gigs and jobs opportunities help from the community.</p>
+                    </div>
+                </div> <br><br>
+                <div class="row">
+                        <!-- col-sm-6 offset-sm-3 col-lg-6 offset-lg-3 -->
+                    <div class="col-6 offset-3">
+                        <hr id="horizontal">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12 mt-5">
+                        <p id="sponsors">Our Sponsors</p>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="row text-center sponsors-logos-section">
+                            <div class="col-sm-6 col-lg-3">
+                                <img src="images/andela2.png" class="sponsors-logos" alt="">
+                            </div>
+                            <div class="col-sm-6 col-lg-3">
+                                <img src="images/bizlogo2.png" class="sponsors-logos" alt="">
+                            </div>
+                            <div class="col-sm-6 col-lg-3">
+                                <img src="images/bolt1.png" class="sponsors-logos" alt="">
+                            </div>
+                            <div class="col-sm-6 col-lg-3">
+                                <img src="images/busha1.png" class="sponsors-logos" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <!-- body section ends -->
+
+        <!-- footer here -->
+        <footer class="container-fluid" id="footer">
+            <div class="row">
+                <div class="col-sm-2 col-md-4 col-lg-3" id="img-foot">
+                    <a href="index.html"> <img src="images/footer_logo1.png" alt="" id="footer-img"> </a>
+                </div>
+                <div class="col-sm-7 col-md-5 col-lg-6 touch">
+                    <div class="row">
+                        <div class="col-12" id="in-touch"> Stay in touch</div>
+                        <div class="col-12 pt-4 icons">
+                            <a href="#" title="Send a mail"> <i class="fas fa-envelope"></i>        </a>
+                            <a href="#" title="Join us on slack"> <i class="fab fa-slack"></i>           </a>
+                            <a href="#" title="Connect with us on Facebook"> <i class="fab fa-facebook-square"></i> </a>
+                            <a href="#" title="Send a whatsapp message" style="color: white;"> <i class="fab fa-whatsapp"></i>        </a>
+                        </div>
+                        <div class="col-12 pt-4" id="copyright"> &copy; 2019 Musdev Developers Community, Africa </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-3 col-md-3  col-lg-3 links foot">
+                    <ul class="footer-list">
+                        <li> <a href="#">Join us    </a> </li>  
+                        <li> <a href="#"> Log in    </a> </li>    
+                        <li> <a href="#"> Meetups   </a> </li>   
+                        <li> <a href="#"> Community </a> </li> 
+                        <li> <a href="#"> Leaders   </a> </li>   
+                    </ul>
+                </div>
+            </div>
+        </footer>
+        
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="js/bootstrapjs/bootstrap.min.js"></script>
+        <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" ></script> -->
+    </body>
 </html>
