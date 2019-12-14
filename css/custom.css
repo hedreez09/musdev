@@ -12,8 +12,9 @@
 }
 
 .navbar-light .navbar-nav .list-item:hover{
-    background-color: #3C7B5C;
+    background-color: rgb(204, 113, 9);
     color: white;
+    border-radius: 25%;
 }
 
 /* media queries for screen  sizes */
